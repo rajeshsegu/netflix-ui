@@ -7,7 +7,8 @@ Similar to Netflix App on iPad.
 
 For your convenience, I have included basic webserver for you to try it on your Mobile / Tablet device.
 
->node webserver.js
+prompt> node webserver.js
+
 Server running at http://localhost:8080/
 
 

@@ -66,11 +66,6 @@
     position: relative;
 }
 
-.category li:hover span:after {
-    
-}
-
-/*
 .category li span:active:after {
     background: #000;
     content: "";
@@ -82,7 +77,6 @@
     top: 0;
     width: 100%;
 }
-*/
 
 .movie {
     /* asset width / height */

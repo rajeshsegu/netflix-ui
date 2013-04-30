@@ -1,0 +1,120 @@
+/* Base Styles */
+
+/* Application Styles */
+
+#container {
+    font-family: sans-serif;  
+    width: 100%;
+}
+
+#header {    
+    position: fixed;    
+    left: 0;    
+    right: 0;                
+    top: -1px;
+	padding-top: 1px;
+    
+    height: 50px;
+    width: 100%;     
+    
+    background-color: #B9090B;
+    z-index: 100;  
+}
+
+.logo img {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {        
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.categoryTitle {    
+    padding-left: 20px;
+    padding-top: 10px;    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;    
+}
+
+.categoryRow {  
+    padding: 5px;    
+    overflow: hidden;
+    height: 224px;
+    width: 2600px; /* approx. 15*170 */    
+    list-style-type: none;      
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 10px;
+}
+
+.category li {
+    margin: 5px 10px;
+    float: left;
+    border: none;
+    position: relative;
+}
+
+.category li:hover span:after {
+    
+}
+
+/*
+.category li span:active:after {
+    background: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+*/
+
+.movie {
+    /* asset width / height */
+    height: 214px; 
+    width: 150px;
+    background-color: gray;   /* in case asset does not load */ 
+}
+
+.movie img {
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Standard Styles */
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
